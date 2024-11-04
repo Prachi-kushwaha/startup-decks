@@ -1,7 +1,6 @@
 import Form from "next/form"
 import SearchFormReset from "./search-form-reset"
 import { Search } from "lucide-react"
-import { Button } from "./ui/button"
 
 const SearchForm = ({query}:{query?:string}) => { 
     
@@ -22,5 +21,4 @@ const SearchForm = ({query}:{query?:string}) => {
     </Form>
   )
 }
-
 export default SearchForm
